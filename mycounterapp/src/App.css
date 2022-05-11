@@ -1,7 +1,30 @@
 .App {
   text-align: center;
 }
-
+.container{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+#ADD{
+  margin-left: 25rem;
+  margin-top: 2rem;
+  height: 2rem;
+  width: 10rem;
+  font-family:'Lucida Sans';
+  font-weight: bold;
+  font-size: 20px;
+  background-color: gray;
+}
+button{
+  margin: 1rem;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.counter{
+  background-color:lightgray;
+  width: 50%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
